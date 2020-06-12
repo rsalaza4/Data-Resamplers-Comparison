@@ -16,8 +16,14 @@ df.head()
 
 # EXPLORATORY DATA ANALYSIS
 
+# Visualize male/female ratio
+sns.countplot(x=df["male"]).set_title("Male/Female Ratio")
+
 # Visualize the classes distributions
 sns.countplot(x=df["TenYearCHD"]).set_title("Outcome Count")
+
+# Visualize the classes distributions by gender
+sns.countplot(x="TenYearCHD", hue="male", data=df).set_title('Outcome Count by Gender')
 
 # DATA CLEANING
 
