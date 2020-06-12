@@ -36,7 +36,7 @@ X = df.drop(columns="TenYearCHD", axis=0)
 # Specify target column
 y = df["TenYearCHD"]
 
-# MODELS BUILDING AND PERFORMANCE EVALUATION
+# MODEL BUILDING AND PERFORMANCE EVALUATION
 
 # Import required libraries for performance metrics
 from sklearn.metrics import make_scorer
@@ -102,6 +102,8 @@ ros = RandomOverSampler(random_state=42)
 
 # Create a list with the resampling techniques
 techniques = [rus, nm1, nm2, nm3, tl, cnn, sm, blSMOTE, smotenc, adasyn, ros]
+
+# NEW MODELS BUILDING AND PERFORMANCE EVALUATION
 
 # Define the resamplers evaluation function
 def resamplers_evaluation(X, y, folds):
