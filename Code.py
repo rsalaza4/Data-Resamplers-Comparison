@@ -27,9 +27,6 @@ df.isnull().values.any()
 # Remove null values
 df = df.dropna()
 
-# Check if there are any null values
-df.isnull().values.any()
-
 # Specify features columns
 X = df.drop(columns="TenYearCHD", axis=0)
 
