@@ -66,9 +66,9 @@ log = cross_validate(log_model, X, y, cv=5, scoring=scoring)
     
 # Create a data frame with the model perforamnce measures scores
 unbalanced_scores = pd.DataFrame({'Unbalanced Data':[log['test_accuracy'].mean(),
-                                                           log['test_precision'].mean(),
-                                                           log['test_recall'].mean(),
-                                                           log['test_f1_score'].mean()]},
+                                                     log['test_precision'].mean(),
+                                                     log['test_recall'].mean(),
+                                                     log['test_f1_score'].mean()]},
                                   index=['Accuracy', 'Precision', 'Recall', 'F1 Score'])
 
 unbalanced_scores
