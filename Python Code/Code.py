@@ -106,7 +106,7 @@ ros = RandomOverSampler(random_state=42)
 # Create a list with the resampling techniques
 techniques = [rus, nm1, nm2, nm3, tl, cnn, sm, blSMOTE, smotenc, adasyn, ros]
 
-# NEW MODELS BUILDING AND PERFORMANCE EVALUATION
+# BALANCED MODELS BUILDING AND PERFORMANCE EVALUATION
 
 # Define the resamplers evaluation function
 def resamplers_evaluation(X, y, folds):
