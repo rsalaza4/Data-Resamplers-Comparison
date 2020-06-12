@@ -1,4 +1,4 @@
-# Data Resamplers Comparison
+# Data Samplers Comparison
 
 This repository contains a Python code for comparing the effectiveness of applying under-sampling techniques (Random Under Sampler, Near Miss I, Near Miss II, Near Miss III, Tomek Links and Condensed Nearest Neighbors) and over-sampling techniques (Random Over Sampling, SMOTE, Borderline SMOTE, SMOTE-NC and Adaptive Synthetic) in a machine learning classifier (logistic regression) through the calculation of their corresponding performance metrics (accuracy, precision, recall and F1 score). 
 
