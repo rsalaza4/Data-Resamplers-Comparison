@@ -16,3 +16,5 @@ This repository contains a Python code for comparing the effectiveness of applyi
 * [scikit-learn](https://scikit-learn.org/stable/)
 
 ## Written Article
+
+* [Towards Data Science - Medium](https://towardsdatascience.com/machine-learning-classifiers-data-resamplers-comparison-906442d04fde)
