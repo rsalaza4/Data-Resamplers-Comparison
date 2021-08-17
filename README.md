@@ -4,7 +4,7 @@ This repository contains a Python code for comparing the effectiveness of applyi
 
 ## Requirements
 
-* [Python 3.7](https://www.python.org/)
+* [Python 3.8](https://www.python.org/)
 
 ## Libraries
 
